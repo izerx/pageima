@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from selenium import webdriver
 from django.http import HttpResponse, JsonResponse
-from PIL import Image
-from io import BytesIO
 
 def index(request): 
     return render (request, 'App/index.html')
